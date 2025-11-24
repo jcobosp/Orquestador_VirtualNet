@@ -1,6 +1,6 @@
-# Orquestador_VirtualNet
+# Orquestador VirtualNet
 
-**VirtualNet Orchestrator** es una herramienta de automatización diseñada para crear, configurar y gestionar de forma integral un entorno virtualizado completo utilizando **QEMU/KVM**, **libvirt**, redes virtuales basadas en bridges de Linux y scripts de orquestación en **Python**.
+**Orquestador VirtualNet** es una herramienta de automatización diseñada para crear, configurar y gestionar de forma integral un entorno virtualizado completo utilizando **QEMU/KVM**, **libvirt**, redes virtuales basadas en bridges de Linux y scripts de orquestación en **Python**.
 
 El sistema permite desplegar en segundos una topología funcional compuesta por:
 
@@ -16,7 +16,7 @@ Toda la infraestructura (máquinas virtuales, discos, redes, servicios y rutas) 
 ## Funcionalidades principales
 
 ### Aprovisionamiento automático de máquinas virtuales
-VirtualNet Orchestrator crea máquinas virtuales mediante:
+Orquestador VirtualNet crea máquinas virtuales mediante:
 - Generación de discos **QCOW2** desde una imagen base
 - Construcción dinámica de definiciones XML para libvirt
 - Asignación automática de interfaces de red
@@ -111,10 +111,6 @@ Ejemplo:
 - Python 3 con:
   - `lxml`
   - `logging`
-
-### Archivos necesarios (localmente)
-- `cdps-vm-base-pc1.qcow2`
-- `plantilla-vm-pc1.xml`
 
 ---
 
